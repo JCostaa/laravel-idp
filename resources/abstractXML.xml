@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<samlp:Response
+    Destination="https://ec2-54-174-48-59.compute-1.amazonaws.com/module.php/saml/sp/saml2-acs.php/default-sp"
+    ID="_3f5cdf7d36403d228797e29378024140dc385b10f0" IssueInstant="2022-03-24T21:30:52Z" Version="2.0"
+    xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
+    <saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">https://ec2-54-205-120-69.compute-1.amazonaws.com/saml/metadata</saml:Issuer>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <ds:Reference URI="#_3f5cdf7d36403d228797e29378024140dc385b10f0">
+                <ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <ds:DigestValue>dKkgcvLZNrdQ/P5+qcx2aTdTBrc=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>T6qCc68WLPftD90V4jPPa3zYN/MIdhbfjXEbGBKfkINwD3lNacnSYiJCCKx39HrFflj9Fs0HU3ptZVYi/GpEUG+3Gf6b2wJrtOX0chJYlFkKYffATsRmmbDnEyrfH1eGbs+3kgvvzyQUvc4NGXkbTb0Xaj2aSP3BuH1Azz+Ug1vckVfGFqYIcx8Q/v8ufC0Jvn6Vb/diiOjlRnUH3h+uq6NyU/hv4vG28vlSorwvZrngn2ENWQFTvQwt9mqt2VSb7Jg6e9ePeiyOquaWhR+BEeOQlGNxi/ts+cBV3/eYrOABvk8l6E/JlNMxgMhNU5LL6sJ7vK8zMAHkoYSwaw6Uog==</ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>MIIDazCCAlOgAwIBAgIUMfNoh7Ml4L2K20DfC6sWPJgAhrcwDQYJKoZIhvcNAQELBQAwRTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDAeFw0yMjAzMjQyMTAyNTZaFw00MjAzMTkyMTAyNTZaMEUxCzAJBgNVBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAWRWY7X8amLvrAaNte/6q97qrHkgrtT9kFk9OMd84YTeD2z1J6YkOsA+uLAn+Cuat3T56q7LYxfg6puzv3TfTDHiMk2LnflEIdSivSdjmRVNBT153i077fICFhPIdbBL6Z0kylckhzQB7uERMniTAhA/B3tnNtEz21NVQxwfsE5oNqTWx+dX3yEKc785s+dvoMBik7xXnPOPW4zRH7jRrciLH/Zk0iBl51ypvncQYZy6zsrs+GBaHCRxvEFlyLQacu4XEKnNH6yxzLYBzet86cHU7W2fRzvbBeKkqQK5AQqTcYI6z/bllAbHysZhlJHq46rpFnt3wGE7CBc0hhdFLAgMBAAGjUzBRMB0GA1UdDgQWBBT59HO+MYB3OKRFIEYn6Zhq0mNOGTAfBgNVHSMEGDAWgBT59HO+MYB3OKRFIEYn6Zhq0mNOGTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCNGoQxgpuamjEEEi4qTd3t3pn1fUykvMKIK46OCS0lsygC/WAKPNJFKsEBu5GXkXeUWPcqJvjmNZ92qS1fEYvMwF0zo+hneqRhu0kdi1uAMHIliTq46/64zLdURW78o5yyzU3ISqzUuPUHSH5dXdQo3LkAAOAYcSdIy+3UThHYTVVKZBtZNltMAFiEAY4W8u6Q59clNpfMrmwsonD8HkT2JPeqUOH0tHb2DcVcMSw4EJM6I4BXg026WJhUgexzl5n8UqsEHiShovhlhMbTDejmut4wRjpCeE3RashQwja3eOMThu37Ld22nBtnqJncJgswKsumUKoDSuKyrh7y3nJp</ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <samlp:Status><samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/></samlp:Status>
+    <Assertion ID="_31aa90f705c4fda50f928ce32513497e3b027ecc97" IssueInstant="2022-03-24T21:30:52Z"
+        Version="2.0" xmlns="urn:oasis:names:tc:SAML:2.0:assertion">
+        <Issuer>https://ec2-54-205-120-69.compute-1.amazonaws.com/saml/metadata</Issuer>
+        <Subject>
+            <NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">_c9fa18e09d517f92b13bb4a3db557bf1c2693f5f8d</NameID>
+            <SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer"><SubjectConfirmationData InResponseTo="_5f36614002c8aea1c738b509c1d0ef36540ae6bf6a"
+                NotOnOrAfter="2022-03-24T21:31:52Z"
+                Recipient="https://ec2-54-174-48-59.compute-1.amazonaws.com/module.php/saml/sp/saml2-acs.php/default-sp"/></SubjectConfirmation>
+        </Subject>
+        <Conditions NotBefore="2022-03-24T21:30:52Z" NotOnOrAfter="2022-03-24T21:31:52Z">
+            <AudienceRestriction>
+                <Audience>https://ec2-54-174-48-59.compute-1.amazonaws.com/module.php/saml/sp/metadata.php/default-sp</Audience>
+            </AudienceRestriction>
+        </Conditions>
+        <AttributeStatement>
+            <Attribute Name="firstname">
+                <AttributeValue>Bob</AttributeValue>
+            </Attribute>
+        </AttributeStatement>
+        <AttributeStatement>
+            <Attribute Name="lastname">
+                <AttributeValue>Dylan</AttributeValue>
+            </Attribute>
+        </AttributeStatement>
+        <AttributeStatement>
+            <Attribute Name="email">
+                <AttributeValue>student@test.com</AttributeValue>
+            </Attribute>
+        </AttributeStatement>
+        <AttributeStatement>
+            <Attribute Name="title">
+                <AttributeValue>1</AttributeValue>
+            </Attribute>
+        </AttributeStatement>
+        <AuthnStatement AuthnInstant="2022-03-24T21:20:52Z"
+            SessionIndex="_31aa90f705c4fda50f928ce32513497e3b027ecc97">
+            <AuthnContext>
+                <AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</AuthnContextClassRef>
+            </AuthnContext>
+        </AuthnStatement>
+    </Assertion>
+</samlp:Response>
